@@ -37,3 +37,23 @@ The HTML structure was formed as well as the proposal.
 CSS was added onto the HTML structure
 ## Part 3 - Details
 JavaScript was added to the HTML and CSS structure.
+## References
+AI, G., 2026. Font used on the website for Fourways Farmers Market, Pretoria: gemini.ai.
+Blaauwklippen, 2025. Blaauwklippen welcomes Greg Straw, visionary landscape architect and horticulturist. [Online] 
+Available at: https://news.wine.co.za/news.aspx?NEWSID=45397 
+[Accessed 11 March 2026].
+Citizens, T., 2022. Fourways Farmer’s Market owner gives ‘groove’ the green light. [Online] 
+Available at: https://www.citizen.co.za/lifestyle/entertainment/fourways-farmers-market-gives-groove-greenlight/
+[Accessed 29 March 2026].
+Market, F. F., -. 4ways Farmers Market. [Online] 
+Available at: https://www.4waysfarmersmarket.com/
+[Accessed 11 March 2026].
+Market, J., 2026. Joburg Market. [Online] 
+Available at: https://joburgmarket.co.za 
+[Accessed 11 March 2026].
+quiet_apple, -. Greg Straw in Entrepreneur Magazine. [Online] 
+Available at: https://share.google/e4ouzAEdxqmuudMS3
+[Accessed 11 March 2026].
+Studocu, 2026. Studocu. [Online] 
+Available at: https://www.studocu.com
+[Accessed 11 March 2026].
