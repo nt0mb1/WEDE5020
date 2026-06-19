@@ -1,0 +1,137 @@
+/*CSS Reset*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box 
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(250, 197, 214);
+    max: width 100%;
+}
+
+p{
+    font-size: 10pt;
+}
+h1{
+    color: palevioletred;
+}
+
+header{
+    background-color: pink ;
+    max width: 100px;
+}
+footer{
+    background-color: pink;
+    text-align: center;
+    padding: 20px;
+    max-width: 100%;
+}
+    /*navigations*/
+.navigation {
+    display: flex;
+    list-style-type: none;
+    gap: 250px;
+    background-color: rgb(236, 150, 206);
+    max-width: 100%;
+}
+
+.navigation a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+.navigation :hover{
+    background-color: plum;
+}
+    /*image sizes*/
+img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    
+    /*container for the webpage layout*/
+}
+.container{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(236, 144, 175);
+    padding: 20px;
+    max-width: 100%;
+
+}
+.container div{
+    background-color: rgb(248, 185, 206);
+    display: block;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 15px;
+}
+#searchBox {
+    width: 300px;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 5px;
+    background-color: pink;
+}
+/*Class to hide items that do not match*/
+.hidden{
+    display: none;
+}
+    /*measurements of other devices*/
+@media screen and (min-width: 330px) and (max-width: 768px) {
+  body {
+
+img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    background-color: rgb(238, 144, 225);
+  }
+  .navigation {
+    display: block;
+    list-style-type: none;
+    gap: 20px;
+    background-color: rgb(236, 150, 206);
+    text-align: center;
+    font-size: 8pt;
+}
+
+.navigation a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+
+}
+.navigation :hover{
+    background-color: plum;
+}
+
+h1{
+    font-size: 14pt;
+}
+p{
+    font-size: 8pt;
+}
+
+.container{
+    display: block;
+    grid-template-rows: auto auto auto;
+    background-color: rgb(236, 144, 175);
+    padding: 20px;
+}
+#searchBox{
+    width: 300px;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 5px;
+    background-color: pink;
+}
+/*Class to hide items that do not match*/
+.hidden{
+    display: none;
+}
+.form{
+    background-color: blueviolet;
+}
