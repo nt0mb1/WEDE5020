@@ -153,6 +153,7 @@ JavaScript was added to the HTML and CSS structure.
 </url>
 
 </urlset>
+
 ## References
 AI, G., 2026. Font used on the website for Fourways Farmers Market, Pretoria: gemini.ai.
 Blaauwklippen, 2025. Blaauwklippen welcomes Greg Straw, visionary landscape architect and horticulturist. [Online] 
