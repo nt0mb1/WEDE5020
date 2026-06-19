@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <link rel="stylesheet" href="css_assets/mystyles2.css">
+    <meta name="description" content="This website is about a small market business that sells fruits, vegetables, bouquets, and other various items. They also provide live entertainment and is also family-friendly.">
+    <meta name="keywords" content="Fruits, vegetables, bakery goods, bouquet, winery, fruit juice, pet-friendly food, fruit basket">
+    
+    <link rel="stylesheet" href="css_assets/mystyles2.css">
 
     <title>Events</title>
 
@@ -21,7 +24,26 @@ buttons, Close button (×), Captions. Without this file, the Lightbox may still 
 first). Contains the Lightbox functionality, Opening images in a popup, Closing images,
 Gallery navigation, Image animations-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
-
+<style>
+    .accordion{
+        background-color: pink;
+        color:purple;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        transition: 0.4s;
+    }
+    .panel {
+        padding: 0 18px;background-color: aquamarine;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+    }
+</style>
 </head>
 <body>
     <header> 
@@ -48,22 +70,26 @@ Gallery navigation, Image animations-->
         <h1>Products</h1>
         <p>There is a variety of food, as well as about 50-100 vendors that sell their own products;such as street food, home-made bakery,
              and cocktails from the on-site bar. </p><br/>
+            <!--image in the gallery-->
+        <div class="gallery">   
         <div class="container">
-     <!--image in the gallery-->
-        <div class="gallery">
-
-            <div>
-            Fruits and vegetables are sold in the Market.<br/> <br/>
+            <!--Items sold in the market-->
+            <div>Fruits and vegetables are sold in the Market.<br/><br/>
              <!--Images of strawberries and various fruits-->
-            <a href="images/strawberries.jpg" data-lightbox="mygallery" data-title="strawberries"><img src="images/strawberries.jpg" width="500px" height="500px" alt="strawberries"></a>
-            <a href="images/variousfruits.jpg" data-lightbox="mygallery" data-title="fruits"><img src="images/variousfruits.jpg" width="500px" height="500px" alt="fruits"></a>
+            <a href="images/strawberries.jpg" data-lightbox="mygallery" data-title="strawberries"><img src="images/strawberries.jpg" width="200px" height="200px" alt="strawberries"></a>
+            <a href="images/variousfruits.jpg" data-lightbox="mygallery" data-title="fruits"><img src="images/variousfruits.jpg" width="200px" height="200px" alt="fruits"></a>
+            <a href="images/vegetables.jpg" data-lightbox="mygallery" data-title="vegetables"><img src="images/vegetables.jpg" width="200px" height="200px" alt="vegetables"></a>
+
 
              <br/>
         </div>
         <div>
             There is live music and events that are hosted for you enjoy with your friends and family.<br/>
             <!--Video of live music played-->
-            <video src="videos/Video 1.mp4" width="900" height="600" loop controls></video>
+            <video src="videos/Video 1.mp4" width="300" height="200" loop controls></video>            
+            <a href="images/yellow_bar.jpg" data-lightbox="mygallery" data-title="Sports Bar"><img src="images/yellow_bar.jpg" width="200px" height="200px" alt="Sports Bar"></a>
+
+
             <br/>
         </div>
         <div>
@@ -73,7 +99,6 @@ Gallery navigation, Image animations-->
             <a href="images/black_bar.jpg" data-lightbox="mygallery" data-title="Sports Bar"><img src="images/black_bar.jpg" width="200px" height="200px" alt="Sports Bar"></a>
             <a href="images/brown_bar.jpg" data-lightbox="mygallery" data-title="Sports Bar"><img src="images/brown_bar.jpg" width="200px" height="200px" alt="Sports Bar"></a>
             <a href="images/orange_bar.jpg" data-lightbox="mygallery" data-title="Sports Bar"><img src="images/orange_bar.jpg" width="200px" height="200px" alt="Sports Bar"></a>
-            <a href="images/yellow_bar.jpg" data-lightbox="mygallery" data-title="Sports Bar"><img src="images/yellow_bar.jpg" width="200px" height="200px" alt="Sports Bar"></a>
 
            
         </div>
@@ -85,9 +110,8 @@ Gallery navigation, Image animations-->
         <a href="images/weddingdecor.jpg" data-lightbox="mygallery" data-title="Sports Bar"><img src="images/weddingdecor.jpg" width="200px" height="200px" alt="Sports Bar"></a>
         <a href="images/peachhallroom.jpg" data-lightbox="mygallery" data-title="Sports Bar"><img src="images/peachhallroom.jpg" width="200px" height="200px" alt="Sports Bar"></a>
         <a href="images/hallroomdoors.jpg" data-lightbox="mygallery" data-title="Sports Bar"><img src="images/hallroomdoors.jpg" width="200px" height="200px" alt="Sports Bar"></a>
-
         </div>
-        </div>
+    </div>
     </main>
 
     <footer>

@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <meta name="description" content="This website is about a small market business that sells fruits, vegetables, bouquets, and other various items. They also provide live entertainment and is also family-friendly.">
+    <meta name="keywords" content="Fruits, vegetables, bakery goods, bouquet, winery, fruit juice, pet-friendly food, fruit basket">
+
     <link rel="stylesheet" href="css_assets/mystyles.css">
     <title>About Us</title>
 
@@ -21,14 +23,20 @@ buttons, Close button (×), Captions. Without this file, the Lightbox may still 
 first). Contains the Lightbox functionality, Opening images in a popup, Closing images,
 Gallery navigation, Image animations-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+<style>
 
+</style>
 </head>
 <body> 
+    <script src="js_assets/myjavascript.js"></script>
   <header>
    
         <Nav>
             <img src="images/Tamia's.png" width="200px" height="200px" alt="Company Logo">
-             <ul class="navigation">
+            <a href="https://instagram.com/4waysfarmersmarket" target="_blank"><img src="images/instagramlogo.png" align="right" width="70px" height="70px" alt="Instagram"></a>
+            <a href="https://facebook.com/4waysfarmersmarket" target="_blank"><img src="images/facebooklogo.png" align="right" width="70px" height="70px" alt="Facebook"></a>
+            <a href="https://tiktok.com/@4waysfarmersmarket" target="_blank"><img src="images/tiktoklogo.svg" align="right" width="70px" height="70px" alt="TikTok"></a><br/>
+            <ul class="navigation">
                 <tr>
                     <th><a href="fourWaysFamersMarket - index.html">Homepage</a></th>
                     <th><a href="fourWaysFamersMarket - about_us.html">About Us</a></th>
@@ -41,6 +49,12 @@ Gallery navigation, Image animations-->
         </Nav>
     </header>
     <main>
+
+        <input type="text" id="searchBox"
+            placeholder="Search here...">
+            <button onclick="searchItem()">Search</button>
+            <p id="result"></p>
+
         <h1>Welcome to Fourways Farmers Market!</h1>
         <div class="container">
          
@@ -54,7 +68,7 @@ Gallery navigation, Image animations-->
         <div>
         <!--Explanation of the place and what it offers-->
         <pre>
-        <center>Located in the scenic Modderfontein Nature Reserve,
+        Located in the scenic Modderfontein Nature Reserve,
         The Fourways Market is an open-air lifestyle and
         an artisanal market, where over there is over 100 
         vendors that sell their products,where is expansive
@@ -72,6 +86,8 @@ Gallery navigation, Image animations-->
     
     <p>4WaysFarmersMarket &copy;&trade;2026</p>
     </footer>
+    <script type="module" src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.js"></script>
     <script src="js_assets/myjavascript.js"></script>
 </body>
 </html>
