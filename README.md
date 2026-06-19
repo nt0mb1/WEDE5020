@@ -31,3 +31,9 @@ Milestone: ]JavaScript structure complete
 ### Week 10
 Plan:Finaslisation of the website
 Milestone:Website complete and functional
+## Part 1 - Details
+The HTML structure was formed as well as the proposal.
+## Part 2 - Details
+CSS was added onto the HTML structure
+## Part 3 - Details
+JavaScript was added to the HTML and CSS structure.
