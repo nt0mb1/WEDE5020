@@ -1,11 +1,16 @@
 ###Added
-An interactive map
+Searchbar
 lightbox gallery
+More images
+
 
 ###Changed
 Navigation Options
+Formation of my website
 
 ###Fixed
+Timeline and Milestrone
 
 ###Removed
-A hero image on index page
+Social media icons
+Table for my pages
